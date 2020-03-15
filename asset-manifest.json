@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/jessgat/static/css/main.4ba0cdd9.chunk.css",
-    "main.js": "/jessgat/static/js/main.f4845ff6.chunk.js",
-    "main.js.map": "/jessgat/static/js/main.f4845ff6.chunk.js.map",
-    "runtime-main.js": "/jessgat/static/js/runtime-main.df58b0fc.js",
-    "runtime-main.js.map": "/jessgat/static/js/runtime-main.df58b0fc.js.map",
-    "static/css/2.de424728.chunk.css": "/jessgat/static/css/2.de424728.chunk.css",
-    "static/js/2.7441d900.chunk.js": "/jessgat/static/js/2.7441d900.chunk.js",
-    "static/js/2.7441d900.chunk.js.map": "/jessgat/static/js/2.7441d900.chunk.js.map",
-    "index.html": "/jessgat/index.html",
-    "precache-manifest.d21107b0f7d2050d72ed870f29a1975a.js": "/jessgat/precache-manifest.d21107b0f7d2050d72ed870f29a1975a.js",
-    "service-worker.js": "/jessgat/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/jessgat/static/css/2.de424728.chunk.css.map",
-    "static/css/main.4ba0cdd9.chunk.css.map": "/jessgat/static/css/main.4ba0cdd9.chunk.css.map",
-    "static/js/2.7441d900.chunk.js.LICENSE.txt": "/jessgat/static/js/2.7441d900.chunk.js.LICENSE.txt",
-    "static/media/home.css": "/jessgat/static/media/blackholes.0c852f20.png"
+    "main.css": "/portafolio-jessgat/static/css/main.9bd8e87a.chunk.css",
+    "main.js": "/portafolio-jessgat/static/js/main.ea285a21.chunk.js",
+    "main.js.map": "/portafolio-jessgat/static/js/main.ea285a21.chunk.js.map",
+    "runtime-main.js": "/portafolio-jessgat/static/js/runtime-main.d0db8b87.js",
+    "runtime-main.js.map": "/portafolio-jessgat/static/js/runtime-main.d0db8b87.js.map",
+    "static/css/2.de424728.chunk.css": "/portafolio-jessgat/static/css/2.de424728.chunk.css",
+    "static/js/2.7441d900.chunk.js": "/portafolio-jessgat/static/js/2.7441d900.chunk.js",
+    "static/js/2.7441d900.chunk.js.map": "/portafolio-jessgat/static/js/2.7441d900.chunk.js.map",
+    "index.html": "/portafolio-jessgat/index.html",
+    "precache-manifest.631def392c07fe0bd4e38b82c53b09ce.js": "/portafolio-jessgat/precache-manifest.631def392c07fe0bd4e38b82c53b09ce.js",
+    "service-worker.js": "/portafolio-jessgat/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/portafolio-jessgat/static/css/2.de424728.chunk.css.map",
+    "static/css/main.9bd8e87a.chunk.css.map": "/portafolio-jessgat/static/css/main.9bd8e87a.chunk.css.map",
+    "static/js/2.7441d900.chunk.js.LICENSE.txt": "/portafolio-jessgat/static/js/2.7441d900.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/portafolio-jessgat/static/media/blackholes.0c852f20.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.df58b0fc.js",
+    "static/js/runtime-main.d0db8b87.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.7441d900.chunk.js",
-    "static/css/main.4ba0cdd9.chunk.css",
-    "static/js/main.f4845ff6.chunk.js"
+    "static/css/main.9bd8e87a.chunk.css",
+    "static/js/main.ea285a21.chunk.js"
   ]
 }
