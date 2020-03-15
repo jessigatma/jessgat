@@ -1,0 +1,66 @@
+.about {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#1b1a19", GradientType=1);
+}
+
+.aboutme {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.myphoto {
+    margin: 5%;
+    padding: 3%;
+    /* size: 20%; */
+    order: 2;
+    flex: auto;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+}
+
+.img-thumbnail {
+    width: 70%;
+}
+
+.textabout {
+    text-align: justify;
+    color: white;
+    margin: 5%;
+    margin-bottom: 0%;
+    padding: 3%;
+    order: 1;
+    flex: auto;
+    flex-basis: 20%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+    padding: 3%;
+    order: 3;
+    flex: 10;
+    flex-basis: 20%;
+    color: white;
+    flex-wrap: wrap;
+}
+
+hr {
+    border: 0.5px solid white;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .aboutme {
+        flex-direction: column;
+    }
+}

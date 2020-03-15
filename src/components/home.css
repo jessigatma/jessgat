@@ -1,0 +1,30 @@
+@media(min-width:320px){
+    .background-home {
+        display:flex;
+        margin: 0;
+        background-image: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/05/LHF_2000x1000_O_Lede.gif");
+        filter: grayscale(50%);
+    }
+    .box-home{     
+        margin-top:30%;   
+        margin:10%;
+        justify-content: center;
+        color:white;
+        border-color: white;
+        border:2px;
+        border-style: solid;
+        flex: 4;
+        flex-basis: 27%;
+    } 
+    .title-home{
+        color: white;
+        /* font-weight: 400; */
+        margin: 5%;
+        padding:5%;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+}

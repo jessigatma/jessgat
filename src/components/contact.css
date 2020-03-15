@@ -1,0 +1,32 @@
+.contactme {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 26, 25, 0.8491771708683473) 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#1b1a19", GradientType=1);
+}
+
+.contactflex {
+    display: flex;
+    justify-content: space-evenly;
+    /* color: white; */
+}
+
+a {
+    /* color: rgb(201, 108, 75); */
+    color: white;
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,116 @@
+.background-projects {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(10deg, rgba(0, 0, 0, 1) 0%, rgba(212, 123, 35, 0.8491771708683473) 62%);
+    background: -webkit-linear-gradient(10deg, rgba(0, 0, 0, 1) 0%, rgba(212, 123, 35, 0.8491771708683473) 62%);
+    background: linear-gradient(10deg, rgba(0, 0, 0, 1) 0%, rgba(212, 123, 35, 0.8491771708683473) 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#d47b23", GradientType=1);
+}
+
+.title-project {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    /* width: 1200px; */
+}
+
+.container .box {
+    height: 400px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+}
+
+.container .box .img-box {
+    background-color: #000000;
+    clip-path: circle(400px at center 100px);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: clip-path 0.5s 0.5s ease;
+    width: 100%;
+}
+
+.container .box:hover .img-box {
+    clip-path: circle(80px at center 100px);
+}
+
+.container .box .img-box img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container .box .content {
+    bottom: 0;
+    height: 55%;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.container .box .content h3,
+.container .box .content p,
+.container .box .content a {
+    margin: 5px 0 10px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+.container .box .content a {
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.container .box:hover .content h3,
+.container .box:hover .content p,
+.container .box:hover .content a {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container .box:hover .content h3 {
+    transition-delay: 0.5s;
+}
+
+.container .box:hover .content p {
+    transition-delay: 0.7s;
+}
+
+.container .box:hover .content a {
+    transition-delay: 0.9s;
+}
+
+@media (max-width: 800px) {
+    .container .content {
+        flex-direction: column;
+        /* width: 800px; */
+    }
+
+    h3,
+    p {
+        color: white;
+    }
+}
