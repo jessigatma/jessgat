@@ -1,25 +1,29 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faHtml5,
-  faCss3Alt,
-  faGitAlt,
-  faGithub,
-  faReact,
-  faJs,
-  faNode,
-  faBootstrap
-} from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {
+//   faHtml5,
+//   faCss3Alt,
+//   faGitAlt,
+//   faGithub,
+//   faReact,
+//   faJs,
+//   faNode,
+//   faBootstrap
+// } from '@fortawesome/free-brands-svg-icons';
+// import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import './about.css';
 
 const About = () => {
   return (
     <div id="about" className="about">
+      <div className="title-aboutme">
+        <h2>ACERCA DE MI</h2>
+      </div>
       <div className="aboutme">
         <div className="textabout">
-          <h3>¡Hola, soy Jessica!</h3>
-
+          {/* <div className="title-about">
+            <h3>¡Hola, soy Jessica!</h3>
+          </div> */}
           <p>
             <br /> Chilanga de corazón, viviendo actualmente en Jalisco, amante
             de la ciencia, los datos y la programación. Me encantan los retos y
@@ -43,24 +47,11 @@ const About = () => {
 
         <div className="myphoto">
           <img
-            src="https://i.ibb.co/9cM0MMD/IMG-20160101-204224.jpg"
+            src="https://i.ibb.co/hZCtcc9/IMG-20181105-151227139.jpg"
             className="img-thumbnail"
-            alt="Hamilton"
+            alt="JESS"
           />
         </div>
-      </div>
-
-      <div className="skills">
-        <h5> Conocimientos en </h5>
-        <FontAwesomeIcon icon={faJs} size="2x" />
-        <FontAwesomeIcon icon={faHtml5} size="2x" />
-        <FontAwesomeIcon icon={faCss3Alt} size="2x" />
-        <FontAwesomeIcon icon={faGitAlt} size="2x" />
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-        <FontAwesomeIcon icon={faReact} size="2x" />
-        <FontAwesomeIcon icon={faBootstrap} size="2x" />
-        <FontAwesomeIcon icon={faNode} size="2x" />
-        <FontAwesomeIcon icon={faDatabase} size="2x" />
       </div>
     </div>
   );

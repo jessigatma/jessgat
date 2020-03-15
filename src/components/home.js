@@ -8,9 +8,8 @@ const Home = () => {
       <div className="box-home">
         <div className="title-home">
           <h1>JESSICA GATICA</h1>
-          <h5>FRONT END DEVELOPER</h5>
-          <h6>&</h6>
-          <h6>PHYSICIST</h6>
+
+          <h5>Physicist & Data Scientist Jr </h5>
         </div>
       </div>
     </div>

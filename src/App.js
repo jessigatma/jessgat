@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Navigation from './components/navigation';
 import Home from './components/home';
+// import Skills from './components/skills';
 import Projects from './components/projects';
 import About from './components/about';
 import Contact from './components/contact';
@@ -14,6 +15,7 @@ class App extends Component {
         <Navigation />
         <Home />
         <About />
+        {/* <Skills /> */}
         <Projects />
         <Contact />
       </div>

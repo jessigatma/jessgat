@@ -1,0 +1,18 @@
+.skills1 {
+    background: rgb(206, 141, 180);
+    background: -moz-linear-gradient(331deg, rgba(206, 141, 180, 1) 25%, rgba(154, 86, 133, 1) 68%);
+    background: -webkit-linear-gradient(331deg, rgba(206, 141, 180, 1) 25%, rgba(154, 86, 133, 1) 68%);
+    background: linear-gradient(331deg, rgba(206, 141, 180, 1) 25%, rgba(154, 86, 133, 1) 68%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce8db4", endColorstr="#9a5685", GradientType=1);
+    padding-bottom: 15%;
+    /* cambiar cuando esté el contenido*/
+}
+
+.title-skills {
+    background-image: url("../images/skills.jpg");
+    background-size: 100%;
+    background-position: center 32%;
+    filter: opacity(80%);
+    /* margin-top: 0.25%; */
+    padding: 4%;
+}
