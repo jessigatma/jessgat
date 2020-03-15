@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32fd1df661fe6558d92d1e87f7033e77",
+    "revision": "5f0c9aa5e01a1977e02c875673006c2d",
     "url": "/portafolio-jessgat/index.html"
   },
   {
-    "revision": "643249a5c1879faa7c20",
+    "revision": "21bd715e1c30a1b4423a",
+    "url": "/portafolio-jessgat/static/css/2.de424728.chunk.css"
+  },
+  {
+    "revision": "ed1c52ae5c8ce7941a43",
     "url": "/portafolio-jessgat/static/css/main.9bd8e87a.chunk.css"
   },
   {
-    "revision": "828af208a05d9d8e1cd6",
-    "url": "/portafolio-jessgat/static/js/2.8071d047.chunk.js"
+    "revision": "21bd715e1c30a1b4423a",
+    "url": "/portafolio-jessgat/static/js/2.7441d900.chunk.js"
   },
   {
     "revision": "11a928b57aca5049fe950bf8bcde77c5",
-    "url": "/portafolio-jessgat/static/js/2.8071d047.chunk.js.LICENSE.txt"
+    "url": "/portafolio-jessgat/static/js/2.7441d900.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "643249a5c1879faa7c20",
-    "url": "/portafolio-jessgat/static/js/main.e62e3690.chunk.js"
+    "revision": "ed1c52ae5c8ce7941a43",
+    "url": "/portafolio-jessgat/static/js/main.ea285a21.chunk.js"
   },
   {
     "revision": "f01205780e8eef9d5077",
