@@ -11,7 +11,7 @@ import {
   faNode,
   faBootstrap,
   faPython,
-  faAngular
+  faAngular,
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import './projects.css';
@@ -39,8 +39,13 @@ const Projects = () => {
           </Card.Body>
           <div className="footer">
             <Card.Body>
-              <Card.Link href="#">Code</Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://github.com/jessigatma/GDL002-data-lovers">
+                Code
+              </Card.Link>
+              <Card.Link href="https://jessigatma.github.io/GDL002-data-lovers/src/">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
@@ -61,8 +66,13 @@ const Projects = () => {
           </Card.Body>
           <div className="footer">
             <Card.Body>
-              <Card.Link href="#">Code</Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://github.com/jessigatma/gdl002-burger-queen/tree/completeburger">
+                Code
+              </Card.Link>
+              <Card.Link href="https://jessigatma.github.io/gdl002-burger-queen/#/">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
@@ -82,8 +92,13 @@ const Projects = () => {
           </Card.Body>
           <div className="footer">
             <Card.Body>
-              <Card.Link href="#">Code </Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://github.com/jessigatma/GDL002-social-network">
+                Code{' '}
+              </Card.Link>
+              <Card.Link href="https://itzelmb.github.io/GDL002-social-network/public/index.html">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
