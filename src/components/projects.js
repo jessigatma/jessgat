@@ -40,7 +40,10 @@ const Projects = () => {
           <div className="footer">
             <Card.Body>
               <Card.Link href="#">Code</Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://jessigatma.github.io/GDL002-data-lovers/src/">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
@@ -62,7 +65,10 @@ const Projects = () => {
           <div className="footer">
             <Card.Body>
               <Card.Link href="#">Code</Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://jessigatma.github.io/gdl002-burger-queen/#/">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
@@ -83,7 +89,10 @@ const Projects = () => {
           <div className="footer">
             <Card.Body>
               <Card.Link href="#">Code </Card.Link>
-              <Card.Link href="#"> Demo</Card.Link>
+              <Card.Link href="https://itzelmb.github.io/GDL002-social-network/public/index.html">
+                {' '}
+                Demo
+              </Card.Link>
             </Card.Body>
           </div>
         </Card>
